@@ -1,0 +1,18 @@
+Package: spectra2rgb
+Type: Package
+Title: Convert Spectral Signatures to sRGB and CIELAB Colour Coordinates
+Version: 0.1.0
+Authors@R: person("Jhohan", "Elguera", email = "jelguerat@gmail.com", role = c("aut", "cre"))
+Description: Converts hyperspectral reflectance signatures to device-
+    independent sRGB hex codes and CIE L*a*b* coordinates using the
+    CIE 1931 2-degree standard observer and the D65 standard illuminant.
+    Includes bundled reference data so the package is self-contained.
+    Handles missing and non-finite reflectance values via a configurable
+    policy.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends: R (>= 4.0)
+Imports: stats, grDevices, utils
+Suggests: testthat (>= 3.0.0), readxl, knitr, rmarkdown
+VignetteBuilder: knitr
+Config/roxygen2/version: 8.1.0
